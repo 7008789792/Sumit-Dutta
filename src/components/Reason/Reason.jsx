@@ -53,6 +53,9 @@ function Reason() {
             <img src={adidas} alt="" />
             <img src={nike} alt="" />
           </div>
+          <div>
+            <h2>Sumit</h2>
+          </div>
       </div>
     </div>
   )
