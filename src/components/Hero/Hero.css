@@ -193,3 +193,84 @@
     height: 30rem;
     left: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .hero{
+        flex-direction: column;
+    }
+
+    .blur{
+        width: 14rem;
+    }
+
+    .the-best-ad{
+        margin-top: 0;
+        font-size: small;
+        transform: scale(0.8);
+        align-items: center;
+    }
+
+    .hero-text{
+        font-size: xx-large;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-text>div:nth-child(3){
+        text-align: center;
+        font-size: small;
+        font-weight: 200;
+        letter-spacing: 1px;
+    }
+
+    .hero-btn{
+        justify-content: center;
+    }
+
+    .figures>div>span:nth-child(1){
+        font-size: large;
+    }
+
+    .figures>div>span:nth-child(2){
+        font-size: small;
+    }
+
+    .right-h{
+        position: relative;
+        background: none;
+    }
+
+    .heart-rate{
+        left: 1rem;
+        top: 2rem;
+    }
+
+    .calory{
+        position: relative;
+        top: 5rem;
+        left: 2rem;
+    }
+
+    .calory>img{
+        width: 2rem;
+    }
+
+    .calory>div>:nth-child(2){
+        color: white;
+        font-size: 1rem;
+    }
+
+    .hero-img{
+        position: relative;
+        width: 15rem;
+        left: 7rem;
+        top: 4rem;
+        align-self: center;
+    }
+
+    .hero-back-img{
+        width: 15rem;
+        left: 2rem;
+        top: 0;
+    }
+}
